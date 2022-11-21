@@ -1,0 +1,72 @@
+.contact {
+    margin-top: 0;
+    padding: 260px 0 93px 0;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .contact-title{
+        padding-bottom: 30px;
+        h4{
+            color: white;
+            font-weight: bold;
+            text-align: left;
+        }
+        h6{
+            color: white;
+            text-align: left;
+            font-weight: 100;
+        }
+
+    }
+    .contact-item{
+        background: transparent;
+        box-shadow: none;
+        .main-button-contact{
+            color: white;
+
+        }
+        .button-contact{
+            color: white;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .contact {
+        margin-top: 0;
+        padding: 260px 0 93px 0;
+        background-position: top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        .contact-title{
+            padding-bottom: 10px;
+            h4{
+                color: white;
+                font-weight: bold;
+                text-align: left;
+                font-size: 20px;
+            }
+            h6{
+                color: white;
+                text-align: left;
+                font-weight: 100;
+                font-size: 17px;
+            }
+    
+        }
+        .contact-item{
+            background: transparent;
+            box-shadow: none;
+            .main-button-contact{
+                color: white;
+                font-size: 14px;
+    
+            }
+            .button-contact{
+                color: white;
+            }
+        }
+    
+    }    
+}

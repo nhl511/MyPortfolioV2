@@ -1,0 +1,145 @@
+.about{
+    margin-top: 0;
+    padding: 150px 0 15px 0;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    h4{
+        font-weight: 500;
+        color: white;
+        text-align: left;
+        padding-left: 40px;
+    }
+    h5{
+        font-weight: 100;
+        color: white;
+        text-align: left;
+        padding-left: 40px;
+
+    }
+    .about-devimg{
+        width: 400px;
+    }
+    .mytab1{
+
+        .info-item{
+            color: white;
+            font-weight: 300;
+        }
+        h6{
+            color: white;
+        }
+    }
+    .mytab2{
+        padding-bottom: 0px;
+        h5{
+            font-weight:100;
+            padding-bottom:5px;
+            padding-top:4px;
+        }
+        .info-item{
+            color: white;
+        }
+        h6{
+            color: white;
+        }
+    }
+    .mytab3{
+        padding-bottom: 55px;
+
+        h5{
+            font-weight:100;
+            padding-bottom:5px;
+            padding-top:4px;
+        }
+        .info-item{
+            color: white;
+        }
+        h6{
+            color: white;
+        }
+    }
+    img {
+        border-radius: 50%;
+      }
+}
+@media only screen and (max-width: 600px) {
+
+    .about {
+        margin-top: 0;
+        padding: 100px 0 15px 0;
+        background-position: top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        h4{
+            font-weight: 500;
+            color: white;
+            text-align: left;
+            font-size: 28px;
+        }
+        h5{
+            font-weight: 100;
+            color: white;
+            text-align: left;
+            font-size: 20px;
+
+        }
+
+        .mytab1{
+            padding-bottom: 44px;
+
+            h5{
+                font-weight:100;
+                padding-bottom:5px;
+                padding-top:4px;
+            }
+            .info-item{
+                font-size: 13px;
+                color: white;
+                font-weight: 300;
+            }
+            h6{
+                color: white;
+            }
+        }
+        .mytab2{
+            padding-bottom: 0px;
+            h5{
+                font-weight:100;
+                padding-bottom:5px;
+                padding-top:4px;
+            }
+            .info-item{
+                color: white;
+            }
+            h6{
+                font-size: 14px;
+                color: white;
+            }
+        }
+        .mytab3{
+            padding-bottom: 55px;
+    
+            h5{
+                font-weight:100;
+                padding-bottom:5px;
+                padding-top:4px;
+            }
+            .info-item{
+                color: white;
+            }
+            h6{
+                color: white;
+            }
+        }
+
+        .devimg{
+            width: 100px;
+        }
+
+        .signatureimg{
+            width: 150px;
+        }
+  }
+}

@@ -1,0 +1,101 @@
+.home {
+    margin-top: 0;
+    padding: 260px 0 93px 0;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .home-content{
+        padding-left: 50px;
+        align-items: center;
+        span{
+            color: #4A9CD8;
+        }
+        h2{
+            color: white;
+            font-weight: 900;
+        }
+        h5{
+            padding-top: 5px;
+            padding-bottom: 30px;
+            color: white;
+            font-weight: 100;
+        }
+        .flagicon{
+            width: 20px;
+        }
+        .smileicon{
+            color: white;
+        }
+    }
+    
+    .home-img{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: auto;
+        height: 400px;
+        animation: updown 3s linear infinite;
+    }
+    @keyframes updown {
+        0% {
+            transform: translateY(-20px);
+        }
+        50% {
+            transform: translateY(20px);
+        }
+        100% {
+            transform: translateY(-20px);
+        }
+    }
+  }
+
+  @media only screen and (max-width: 600px) {
+    .home {
+        margin-top: 0;
+        padding: 100px 0 93px 0;
+        background-position: top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    
+        .home-content{
+            padding-left: 15px;
+            padding-right: 2px;
+            padding-bottom: 25px;
+            align-items: center;
+            span{
+                color: #4A9CD8;
+            }
+            h2{
+                color: white;
+                font-weight: 900;
+                font-size: 35px;
+
+            }
+            h5{
+                padding-top: 5px;
+                padding-bottom: 35px;
+                color: white;
+                font-weight: 100;
+                font-size: 25px;
+
+            }
+            .flagicon{
+                width: 20px;
+            }
+            .smileicon{
+                color: white;
+            }
+        }
+        
+        .home-img{
+            padding-top: 40px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+            width: auto;
+            height: 350px;
+        }
+      }
+
+  }

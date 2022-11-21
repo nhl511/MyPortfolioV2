@@ -1,0 +1,110 @@
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+.projects {
+    margin-top: 0;
+    padding: 260px 0 93px 0;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .projects-title{
+        h4{
+            font-weight: 500;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            padding-left: 40px
+        }
+    }
+
+    .carousel {
+        text-align: center;
+        width: 80%;
+        margin: 2rem auto;
+        /* height: 570px; */
+
+        h6{
+          color: black;
+          font-size: 14px;
+          font-weight: 300;
+
+        }
+        h4{
+          color: black;
+          font-size: 16px;
+          font-weight: 400;
+
+        }
+      }
+    .arrow-next{
+        color: white;
+        position: absolute;
+      cursor: pointer;
+      z-index: 10;
+      right: 10%;
+      top: 50%;
+      }
+
+      .arrow-prev{
+        color: white;
+        position: absolute;
+      cursor: pointer;
+      z-index: 10;
+      left: 10%;
+      top: 50%;
+      }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .projects {
+    margin-top: 0;
+    padding: 260px 0 93px 0;
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .projects-title{
+        h4{
+          padding-bottom: 30px;
+            color: white;
+            font-weight: bold;
+            text-align: center;
+            font-size: 28px;
+        }
+    }
+
+    .carousel {
+        text-align: center;
+        width: 300px;
+        margin: 1rem auto;
+        /* height: 570px; */
+
+        img{
+          width: 270px;
+          height: auto;
+        }
+      }
+    .arrow-next{
+        color: white;
+        position: absolute;
+      cursor: pointer;
+      z-index: 10;
+      right: -7%;
+      top: 30%;
+      }
+
+      .arrow-prev{
+        color: white;
+        position: absolute;
+      cursor: pointer;
+      z-index: 10;
+      left: -7%;
+      top: 30%;
+      }
+
+}  
+}
+
+    
