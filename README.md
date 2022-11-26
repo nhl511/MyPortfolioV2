@@ -5,6 +5,6 @@
 * Send message function
 
 ### Screenshot
-![...](https://github.com/vnracingboy/MyPortfolioV2/blob/master/img/Capture1.PNG)
+![...](https://github.com/vnracingboy/MyPortfolioV2/blob/master/public/assets/img/Capture1.PNG)
 
 #### © 2022 Hoang Long
